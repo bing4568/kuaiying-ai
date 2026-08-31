@@ -1,0 +1,10 @@
+# 快应UI 开源版 - 排除运行时产物与本地配置，避免误提交
+data/
+__pycache__/
+*.pyc
+config.ini
+*.log
+*.flag
+*.bak
+agent.id
+goods_id_log.txt

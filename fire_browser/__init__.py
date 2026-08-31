@@ -1,0 +1,1 @@
+# 快应AI - fire_browser 包：从 main_qt.py 按职责拆出的模块集中在这里

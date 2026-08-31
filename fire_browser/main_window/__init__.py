@@ -1,0 +1,1 @@
+from fire_browser.main_window.main_window import FireBrowser

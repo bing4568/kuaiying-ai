@@ -1,0 +1,1 @@
+from fire_browser.browser_tab.browser_tab import BrowserTab

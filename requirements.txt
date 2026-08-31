@@ -1,0 +1,9 @@
+# 快应UI 开源版 - 依赖
+# 安装: pip install -r requirements.txt
+#
+# PyQt6 全家桶锁定 6.11 配套：绑定与内核必须成套匹配，切勿单独升级其中某一个包
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.2
+PyQt6-sip>=13.8,<15
+PyQt6-WebEngine==6.11.0
+PyQt6-WebEngine-Qt6==6.11.2
