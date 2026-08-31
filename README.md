@@ -98,6 +98,16 @@ kuaiai-ui-opensource/
 
 ---
 
+## 📞 联系我们
+
+有任何问题需要反馈，或者对产品有功能建议，欢迎扫码添加客服进群交流：
+
+| |
+|---|
+| ![微信客服](screenshots/contact-wechat.jpg) |
+
+---
+
 ## ⚖️ 使用许可
 
 本项目遵循 [MIT 许可证](LICENSE)。
