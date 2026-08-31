@@ -34,10 +34,11 @@
 
 ## 🖼 界面展示
 
-| | |
-|---|---|
-| ![](screenshots/screenshot-1.png) | ![](screenshots/screenshot-2.png) |
-| ![](screenshots/screenshot-3.png) | |
+| |
+|---|
+| ![](screenshots/screenshot-1.png) |
+| ![](screenshots/screenshot-2.png) |
+| ![](screenshots/screenshot-3.png) |
 
 ---
 
