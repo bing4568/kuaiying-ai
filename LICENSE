@@ -2,6 +2,18 @@ MIT License
 
 Copyright (c) 2026 快应AI 开源项目组
 
+第三方依赖声明
+----------------------------------
+本项目本身遵循 MIT 许可证。但运行时依赖的库可能带有各自的许可/开源义务，使用、分发、商用本软件时，必须同时满足以下第三方组件的许可证条款：
+
+- PyQt6 / PyQt6-WebEngine —— 由 Riverbank Computing 开发，遵循 GPL v3（或商业许可）双许可。
+  任何依赖 PyQt6 发布的软件，须按 GPL v3 履行开源与再分发义务。本项目仅为你的 MIT 源码部分负责，
+  不代替你满足 PyQt6 的 GPL 义务。默认情况下通过 `pip install` 从 PyPI 安装的 PyQt6 使用 GPL v3 许可。
+
+请在使用本项目前，自行审阅并遵守所有第三方库（见 requirements.txt）的许可证条款。
+
+----------------------------------
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

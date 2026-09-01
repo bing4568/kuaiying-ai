@@ -8,3 +8,4 @@ config.ini
 *.bak
 agent.id
 goods_id_log.txt
+docs/
