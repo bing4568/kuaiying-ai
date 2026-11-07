@@ -1,149 +1,119 @@
-### KuaiYingAI · E-commerce AI Customer Service Workspace
+<div align="center">
 
-An all-in-one Windows desktop workspace for Pinduoduo (PDD) sellers — AI customer service, bulk product listing, and automated after-sales appeals. Built with PyQt6 + QtWebEngine.
+# 快应AI · 拼多多智能客户端
 
-- **AI customer service** — product-aware knowledge base, multi-turn memory, silent background replies
-- **Bulk listing** — product data, attributes, title, SKU images and cover design in one flow
-- **After-sales automation** — rule-based approve/reject, evidence collection, appeal drafting
-- **Official site / download:** https://kuaiyingai.xyz/
+**让 AI 真正成为你的员工**
 
-> 以下为中文说明。
+客服、商品、售后，一站式数据驱动。AI 负责重复的活，人只处理真正重要的事。
 
-### KuaiYingAI · 电商智能客服工作台
+`0.0008¥ 起 / 条消息` · `3 套知识库分层调用` · `30 分钟上手` · `30 天免费试用`
 
-An all-in-one Windows desktop workspace for Pinduoduo (PDD) sellers — AI customer service, bulk product listing, and automated after-sales appeals. Built with PyQt6 + QtWebEngine.
+[官网下载](https://kuaiyingai.xyz/) · [最新版本](https://github.com/bing4568/kuaiying-ai/releases) · [联系我们](#联系我们)
 
-- **AI customer service** — product-aware knowledge base, multi-turn memory, silent background replies
-- **Bulk listing** — product data, attributes, title, SKU images and cover design in one flow
-- **After-sales automation** — rule-based approve/reject, evidence collection, appeal drafting
-- **Official site / download:** https://kuaiyingai.xyz/
+</div>
 
-> 以下为中文说明。
-
-# 快应AI · 电商智能客服工作台
-
-⚡ **面向电商客服的一体化工作台** ⚡
-
-快应AI 围绕电商客服场景打造的桌面工作台，将店铺管理、买家沟通、回复策略配置集中在一个界面，帮助客服/运营更高效地处理日常接待工作。
-
-本项目基于 **PyQt6 + QtWebEngine** 构建，界面采用现代化设计（无边框+系统阴影、顶部店铺标签栏 + 滑动指示线、线框图标的扁平风格）。
-
-🚀 **官网下载**：<https://kuaiyingai.xyz/>
+![客服工作台](screenshots/screenshot-1.png)
 
 ---
 
-## ✨ 产品特色
+## 01 — AI 智能客服
 
-- 🎯 **专注电商客服场景**：围绕店铺接待、回复策略配置设计
-- 🔗 **多店铺统一管理**：顶部标签栏自由切换店铺，一键批量启动
-- 🧩 **可配置回复体系**：设置中心内置通用/商品指向等多种回复规则，支持人设与转人工场景配置
-- 📊 **接待状态一目了然**：自动回复开关、接待状态指示灯实时反馈
-- 🛠 **界面友好**：现代 UI 风格、加载动画、卡片式布局、标签交互
+**让 AI 像资深客服一样理解你的商品**
 
----
+大模型结合店铺资料与商品知识，按买家意图和订单状态组织回复；支持上下文记忆与多轮对话，接待过程连贯不重复。
 
-## 🔥 核心功能
-
-- ✅ **多店铺管理**：新增/编辑/删除店铺，店铺列表弹窗、一键启动全部店铺
-- ✅ **店铺登录**：内置网页加载平台商家后台，扫码/登录进入自己的店铺管理页
-- ✅ **顶部店铺标签**：带滑动指示线的浏览器式标签栏，标签与页面高亮联动
-- ✅ **自动回复开关**：开启/关闭一键切换，状态同步到所有标签页并实时反馈
-- ✅ **回复规则配置**：设置中心支持通用/商品/售前/售后等回复规则，匹配类型与优先级可调
-- ✅ **人设与转人工**：AI 人设/提示词配置、转人工场景设置
-- ✅ **消息管理入口**：消息中心、黑名单、消息日志
-- ✅ **本地持久化**：店铺与配置存于本地用户数据目录，重装/更新不丢
-
+| 能力 | 说明 |
+| --- | --- |
+| 静默回复 | AI 在后台自动回复，不占用客服的键盘鼠标，人工可以同时处理其他事务 |
+| 售前全场景 | 咨询、商品对比、智能推荐、物流查询、订单备注、仅退款 |
+| 商品自动学习 | 自动整理商品图片与详情文字，形成可用的商品知识，新品接入无需逐条手动配置 |
+| 多层级知识库 | 店铺级与单品级知识分开管理，不同场景调用对应内容，回复更贴合当前商品 |
+| 关键词快速触发 | 常用问题按关键词直接命中，响应更快，是大模型语义理解的补充 |
+| 兜底策略 | 分级处理与兜底回复，遇到拿不准的问题不会硬答，减少漏回与超时 |
+| 聊天记录学习 | 从历史对话中提炼真人客服的回复逻辑与话术，持续优化，越用越顺 |
+| 上下文记忆 | 记住同一买家的前因后果，多轮对话不重复提问，售前售后切换也不断层 |
 
 ---
 
-## 🖼 界面展示
+## 02 — 全链路自动上架
 
-| |
-|---|
-| ![](screenshots/screenshot-1.png) |
-| ![](screenshots/screenshot-2.png) |
-| ![](screenshots/screenshot-3.png) |
+**从一张商品图，到一条已上架的链接**
 
----
+商品资料、属性、标题、规格与主图由 AI 完成，最后按平台发布流程提交，人工只需处理异常与确认结果。
 
-## 🚀 快速开始
+| 步骤 | 内容 |
+| --- | --- |
+| STEP 01 | **商品资料**：读取图片与详情文字，整理成结构化的商品知识 |
+| STEP 02 | **属性与标题**：按平台候选值逐项选择，必填项优先补齐，标题按长度要求自动截断 |
+| STEP 03 | **规格与主图**：整理颜色与尺码对应关系，生成可直接提交的规格表，并为每个规格匹配商品图、完成主图设计 |
+| STEP 04 | **提交上架**：按平台流程提交，异常单独处理 |
 
-### 环境要求
-
-- Windows 10/11
-- Python 3.10+（推荐 3.13）
-
-### 安装
-
-```bash
-pip install -r requirements.txt
-```
-
-### 运行
-
-```bash
-python main_qt.py
-```
+![自动上架](screenshots/screenshot-2.png)
 
 ---
 
-## 📁 目录结构
+## 03 — 售后管理 / 申诉
 
-```
-kuaiai-ui-opensource/
-├── main_qt.py                 # 程序入口
-├── requirements.txt           # 依赖清单
-├── fire_browser/
-│   ├── browser_tab/           # 店铺登录页
-│   ├── main_window/           # 主窗口各零件
-│   ├── pathutils.py           # 路径/工具
-│   ├── settings_bridge.py     # 设置中心桥
-│   ├── widgets.py             # UI 小件
-│   └── workers.py             # 后台任务
-├── reply-settings-center.html # 设置中心页面
-├── ui_widgets.py              # 自绘控件
-├── shop_manager.py            # 店铺管理
-├── config_manager.py          # 配置管理
-├── database.py                # 店铺持久化
-├── log_manager.py             # 日志系统
-├── icons/                     # 图标/素材
-└── logo1.ico
-```
+**售后单自动处理，申诉材料自动整理**
+
+待商家处理的售后单集中呈现，可按规则自动同意、驳回或创建换货单；需要申诉的订单，从证据到说明一次完成。
+
+- **售后单集中看板**：待商家处理的售后单按类型与状态集中展示，每条处理结果单独记录
+- **五类规则自动执行**：自动同意拒收退款、自动同意退换货、自动驳回退款、自动驳回影响二次销售退货、自动创建极速换货订单
+- **处理前自动核验**：按签收时间与售后类型逐项核对，不符合条件的订单自动跳过，避免误操作
+- **证据自动采集**：订单资料、聊天记录、交易快照、商品图与买家图片，在采集时一并留档
+- **申诉说明自动生成**：AI 结合聊天与交易证据整理前因后果，生成符合要求的说明并提交
+- **申诉与复议双通道**：可申诉与可复议的订单同时预采集，两类流程共用同一套证据
+
+![售后与申诉](screenshots/screenshot-3.png)
 
 ---
 
-## 💡 开源贡献
+## 下载与试用
 
-欢迎提交 Issue / Pull Request 完善代码、文档与使用体验。
+Windows 桌面客户端，安装后登录店铺即可使用。客服、上架、售后在同一处完成。
 
-- 🐛 提交 Issue 反馈问题或建议
-- 🔧 提交 PR 贡献代码
-- 📝 完善文档与示例
+**[前往官网下载 →](https://kuaiyingai.xyz/)**
 
----
-
-## 📞 联系我们
-
-有任何问题需要反馈，或者对产品有功能建议，欢迎扫码添加交流：
-
-| |
-|---|
-| ![微信客服](screenshots/contact-wechat.jpg) |
+- 系统要求：Windows 10 / Windows 11
+- 免费试用 30 天，全部功能可用
+- 按消息计费，0.0008 元 / 条起
 
 ---
 
-## ⚖️ 使用许可
+## 技术栈
 
-本项目遵循 [MIT 许可证](LICENSE)。
+- **PyQt6 + QtWebEngine**：桌面客户端与内嵌浏览器
+- **界面**：无边框 + 系统阴影、顶部店铺标签栏 + 滑动指示线、线框图标扁平风格
+- **架构**：表现层 / 业务逻辑层 / 数据层分离，后台任务走线程池，通过信号-槽更新界面
 
-- ✅ 个人使用：免费，无限制
-- ✅ 允许修改、商用、再分发（需保留版权声明）
-- 📝 详细条款请见 [LICENSE](LICENSE)
-
-> 说明：本开源版开放软件界面与整体框架代码。如您需要完整的商业版本或定制服务，请联系我们。
->
-> ⚠️ **第三方依赖许可**：本项目依赖 **PyQt6（GPL v3）**。本项目源码遵循 MIT，但 PyQt6 本身为 GPL v3 / 商业双许可，使用与分发本软件时须同时满足 PyQt6 的许可证义务（详见 [LICENSE](LICENSE)）。
+> 第三方依赖许可说明见仓库内 `LICENSE` 与源码文件头注释。PyQt6 采用 GPLv3 授权。
 
 ---
 
-**⭐ 如果这个项目对你有帮助，欢迎点亮 Star！⭐**
+## 联系我们
+
+- 微信：18983614919
+- 邮箱：2372709230@qq.com
+- 官网：https://kuaiyingai.xyz/
+
+<img src="screenshots/contact-wechat.jpg" width="180" alt="微信联系">
+
+---
+
+## English
+
+**KuaiYingAI** — an all-in-one Windows desktop workspace for Pinduoduo (PDD) sellers: AI customer service, end-to-end product listing, and automated after-sales appeals. Built with PyQt6 + QtWebEngine.
+
+- AI customer service with product-aware knowledge base and multi-turn memory
+- Bulk listing: product data, attributes, title, SKU images and cover design
+- After-sales automation: rule-based approve / reject, evidence collection, appeal drafting
+- Official site & download: https://kuaiyingai.xyz/
+
+---
+
+<div align="center">
+
+© 2026 快应AI · 面向拼多多商家的店铺运营工具
+
+</div>
