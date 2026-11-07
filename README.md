@@ -1,3 +1,14 @@
+### KuaiYingAI · E-commerce AI Customer Service Workspace
+
+An all-in-one Windows desktop workspace for Pinduoduo (PDD) sellers — AI customer service, bulk product listing, and automated after-sales appeals. Built with PyQt6 + QtWebEngine.
+
+- **AI customer service** — product-aware knowledge base, multi-turn memory, silent background replies
+- **Bulk listing** — product data, attributes, title, SKU images and cover design in one flow
+- **After-sales automation** — rule-based approve/reject, evidence collection, appeal drafting
+- **Official site / download:** https://kuaiyingai.xyz/
+
+> 以下为中文说明。
+
 ### KuaiYingAI · 电商智能客服工作台
 
 An all-in-one Windows desktop workspace for Pinduoduo (PDD) sellers — AI customer service, bulk product listing, and automated after-sales appeals. Built with PyQt6 + QtWebEngine.
