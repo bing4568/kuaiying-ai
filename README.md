@@ -6,7 +6,7 @@
 
 本项目基于 **PyQt6 + QtWebEngine** 构建，界面采用现代化设计（无边框+系统阴影、顶部店铺标签栏 + 滑动指示线、线框图标的扁平风格）。
 
-🚀 官网下载：https://kuaiyingai.xyz/
+🚀 **官网下载**：<https://kuaiyingai.xyz/>
 
 ---
 
